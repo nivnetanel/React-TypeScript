@@ -1,0 +1,25 @@
+/* BASIC SETUP */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+// px - use it when you want something that will never change
+// rem - for fontSize / padding / margin
+// % - use it when there is container that you want it to be relative to its parent
+// vh / vw -  use it when you want to set elements base on the screen size
+
+/* PAY ATTENTION */
+// use max-width for responsive.
+// never use hight on elements, use min-hight for better responsive.
